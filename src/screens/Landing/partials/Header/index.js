@@ -11,7 +11,7 @@ const Header = ({loggedIn,setLoggedin,currentScreen}) => (
         
         <div>
           {
-           (currentScreen==="success" && loggedIn) ?<DropDown setLoggedin={setLoggedin}/>
+           (currentScreen==="form" && loggedIn) ?<DropDown setLoggedin={setLoggedin}/>
            :
             <button
             className="btn btn-responsive"
